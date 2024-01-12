@@ -47,3 +47,24 @@ The target users for this model are:
 - The data used for this project comes in the form of CSV files obtained from the anonymous company.
 - The original data has been anonymized for the purposes of this project.
 - The CSVs contain 5-years worth of data (2018 to 2022) for Purchases, Sales as well as Product Details.
+
+**Conclusion**
+In our project, we created a forecasting model to estimate the future sales of a distribution company. This model was based on an analysis of the historical sales (unit sales volume) over for 5 year period (2018 - 2022).
+
+From three models : SARIMA, LSTM, Linear Regression, the best model is Linear Regression with 10% the value of evaluation result using MAPE.
+
+The result of data inference
+
+Prediction of Sales Quantity for Q1 in 2024 :
+
+January 2024  =  2326 products
+
+Feburary 2024 =   2402 products
+
+March =  2426 products
+
+April =  2332 products
+
+
+The mean absolute percentage error (MAPE), with a 10% MAPE representing the average deviation between the forecasted value and actual values was 10%, regardless of whether the deviation was positive or negative. For example, in January 2024 the prediction Sales Quantity are 2326 products + 10% error so the company need increse or decrese the production quantity about 10% (233 products).
+
