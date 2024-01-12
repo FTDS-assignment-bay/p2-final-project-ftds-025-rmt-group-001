@@ -1,1 +1,49 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13335808&assignment_repo_type=AssignmentRepo)
+Final Project
+
+Batch : RMT-025
+
+========================================
+
+Project Team : 
+
+1. David Tjoe (Data Analyst)
+
+2. Aumedi Wibisana (Data Engineer and Data Scientist)
+
+3. Wahyuni Rahmawati (Data Scientist)
+
+
+========================================
+
+<center><img src="https://raw.githubusercontent.com/wahyunirahmawati/data/main/image.jpg" height=500, width=1000></img></centerleft>
+
+Forecasting production volumes is a critical aspect of business planning and operations management. By accurately predicting the demand for our products, we can optimize our production processes, manage inventory levels efficiently, and make informed decisions about resource allocation.
+
+One effective method for forecasting production volumes is by utilizing sales values.
+
+In this project, we focused on improving the inventory planning process of an anonymous company in Q1 2024. This anonymous company acts as a product distributor by purchasing office products from manufacturers, holding them and then reselling them to retailers and end-users.
+
+By analyzing their office products' purchases, sales and product details data, we created a data model that makes predictions of predicted sales quantities
+Knowing how much will be sold of each product category in the future can help determine how much of each product category should be ordered or kept in stock at any given time.
+
+Having a tool that assists in determining the ideal inventory levels at any given time is crucial to:
+
+- Meet customer demand and ensure customer satisfaction
+- Avoid having too much inventory which can lead to unnecessary storage and handling costs
+- Avoid stockouts which can result in sales loss and/or fines from customers
+- Maintain high profitability
+
+For predicting future sales volumes, we will comparing three models, SARIMAX, LSTM, and Linear Rgression then we will choose one model with the best evaluation result and deploy it in to web app.
+
+
+**Target Users of Data Model**
+
+The target users for this model are:
+
+- the anonymous company whose data was analyzed as well as other distributors, manufacturers or retailers that depend on predicting future sales for goods procurement
+- all product sales planning, supply chain, and procurement professionals.
+
+**Data Sources**
+- The data used for this project comes in the form of CSV files obtained from the anonymous company.
+- The original data has been anonymized for the purposes of this project.
+- The CSVs contain 5-years worth of data (2018 to 2022) for Purchases, Sales as well as Product Details.
